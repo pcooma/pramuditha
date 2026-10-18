@@ -115,10 +115,11 @@ img { max-width: 100%; }
   box-shadow: var(--shadow-lg); padding: 28px; text-align: center;
 }
 .hero-photo {
-  width: 120px; height: 120px; margin: 0 auto 16px; border-radius: 50%;
+  width: 128px; height: 128px; margin: 0 auto 16px; border-radius: 50%; overflow: hidden;
   background: linear-gradient(145deg, var(--navy), var(--navy-700)); display: grid; place-items: center;
   border: 4px solid #fff; box-shadow: 0 8px 20px rgba(19,41,75,.25);
 }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .hero-photo-mark { color: var(--gold); font-size: 2.6rem; font-weight: 700; }
 .hero-card-name { font-weight: 700; font-size: 1.2rem; color: var(--navy); margin: 0; }
 .hero-card-role { color: var(--muted); font-size: .92rem; margin: 2px 0 16px; }
@@ -232,9 +233,11 @@ img { max-width: 100%; }
 /* About */
 .about-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 44px; align-items: center; }
 .about-photo {
-  aspect-ratio: 4/5; border-radius: var(--radius); background: linear-gradient(145deg, var(--navy), var(--navy-900));
+  aspect-ratio: 4/5; border-radius: var(--radius); overflow: hidden;
+  background: linear-gradient(145deg, var(--navy), var(--navy-900));
   display: grid; place-items: center; box-shadow: var(--shadow-lg);
 }
+.about-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .about-photo span { color: var(--gold); font-size: 5rem; font-weight: 700; letter-spacing: .05em; }
 .about-copy p { color: var(--muted); }
 
