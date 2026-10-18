@@ -107,6 +107,18 @@
       "pub.4": "Further papers presented at IQSSL technical sessions (2018, 2020), the International Research Symposium on TVET (2019), and the SICET, SLASS &amp; ICSBE symposia (2022–2025).",
       "proof.mem": "<strong>Professional memberships:</strong> Technical Member, Institute of Quantity Surveyors Sri Lanka (IQSSL) · Member, Sri Lanka Association for the Advancement of Science (SLAAS)",
 
+      "work.eyebrow": "See the work",
+      "work.title": "A look at the analytics I build",
+      "work.sub": "Real tools from real engagements — demand forecasting, stock-out prevention, credit control and customer insight. Client identities and sensitive details are always kept confidential.",
+      "work.cap1": "Cumulative revenue against a probabilistic forecast band — catching pace and surprises early.",
+      "work.cap2": "Stock-depletion curve with a predicted stock-out date and reorder lead time.",
+      "work.cap3": "Monte-Carlo demand simulation — 2,000 possible futures with reorder timing.",
+      "work.cap4": "Daily demand simulation, separating ordinary sales from bulk orders.",
+      "work.cap5": "Per-product demand forecast ranges to guide reorder quantities.",
+      "work.cap6": "New vs repeat-customer demand, split day by day.",
+      "work.cap7": "Billing-visit frequency against invoiced revenue and a rolling benchmark.",
+      "work.cap8": "Credit extended versus repayments, tracked month by month.",
+
       "why.title": "Why work with me",
       "why.1.t": "I know the local market",
       "why.1.b": "Sri Lankan business realities, in Sinhala or English. I understand how dealer networks, credit and field sales actually work here.",
@@ -237,6 +249,18 @@
       "pub.4": "IQSSL තාක්ෂණික සැසි (2018, 2020), TVET පිළිබඳ ජාත්‍යන්තර පර්යේෂණ සම්මන්ත්‍රණය (2019), සහ SICET, SLASS හා ICSBE සම්මන්ත්‍රණ (2022–2025) ඇතුළුව තවත් පර්යේෂණ පත්‍රිකා ඉදිරිපත් කර ඇත.",
       "proof.mem": "<strong>වෘත්තීය සාමාජිකත්වය:</strong> තාක්ෂණික සාමාජික, ශ්‍රී ලංකා ප්‍රමාණ සමීක්ෂකයින්ගේ ආයතනය (IQSSL) · සාමාජික, ශ්‍රී ලංකා විද්‍යා ප්‍රගති සංගමය (SLAAS)",
 
+      "work.eyebrow": "කාර්යය බලන්න",
+      "work.title": "මා ගොඩනගන විශ්ලේෂණ මෙවලම්",
+      "work.sub": "සැබෑ ව්‍යාපෘතිවලින් සැබෑ මෙවලම් — ඉල්ලුම් පුරෝකථනය, තොග හිඟවීම් වැළැක්වීම, ණය පාලනය හා පාරිභෝගික අවබෝධය. පාරිභෝගික අනන්‍යතා හා සංවේදී තොරතුරු සැමවිටම රහසිගතව තබා ගනී.",
+      "work.cap1": "සමුච්චිත ආදායම සම්භාවිතා පුරෝකථන පරාසයකට සාපේක්ෂව — වේගය හා අනපේක්ෂිත වෙනස්කම් කල්තියා හඳුනාගැනීම.",
+      "work.cap2": "තොග ක්ෂය වක්‍රය, පුරෝකථිත තොග හිඟවීමේ දිනය හා නැවත ඇණවුම් කාලය සමඟ.",
+      "work.cap3": "මොන්ටි-කාලෝ ඉල්ලුම් අනුකරණය — නැවත ඇණවුම් කාලය සමඟ හැකි අනාගත 2,000ක්.",
+      "work.cap4": "දෛනික ඉල්ලුම් අනුකරණය, සාමාන්‍ය විකුණුම් තොග ඇණවුම්වලින් වෙන් කරමින්.",
+      "work.cap5": "නැවත ඇණවුම් ප්‍රමාණ සඳහා නිෂ්පාදන අනුව ඉල්ලුම් පුරෝකථන පරාස.",
+      "work.cap6": "නව එදිරිව නැවත පැමිණෙන පාරිභෝගික ඉල්ලුම, දිනෙන් දින බෙදා දැක්වීම.",
+      "work.cap7": "බිල්පත් නිකුත් කිරීමේ පිවිසුම් සංඛ්‍යාව, ඉන්වොයිස් ආදායම හා චලන සාමාන්‍යයකට සාපේක්ෂව.",
+      "work.cap8": "ලබා දුන් ණය එදිරිව ආපසු ගෙවීම්, මාසයෙන් මාස නිරීක්ෂණය.",
+
       "why.title": "මා සමඟ වැඩ කළ යුත්තේ ඇයි",
       "why.1.t": "මම දේශීය වෙළඳපොළ දනිමි",
       "why.1.b": "සිංහලෙන් හෝ ඉංග්‍රීසියෙන්, ශ්‍රී ලාංකික ව්‍යාපාරික යථාර්ථය මම දනිමි. නියෝජිත ජාල, ණය පහසුකම් හා ක්ෂේත්‍ර විකුණුම් මෙහි ක්‍රියාත්මක වන සැබෑ ආකාරය මම තේරුම් ගනිමි.",
@@ -345,7 +369,7 @@
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var revealSel = ".eyebrow.center, .section-title, .section-sub.center, .problem-list li, " +
       ".problem-close, .card, .step, .strength, .why-item, .proof-case, .proof-credibility, " +
-      ".proof-pubs, .about-photo, .about-copy, .contact-form, .contact-email";
+      ".proof-pubs, .shot, .about-photo, .about-copy, .contact-form, .contact-email";
     var revealEls = Array.prototype.slice.call(document.querySelectorAll(revealSel));
 
     if (reduce || !("IntersectionObserver" in window)) {
@@ -368,6 +392,33 @@
         });
       }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
       revealEls.forEach(function (el) { io.observe(el); });
+    }
+
+    // Lightbox for work-gallery charts
+    var lightbox = document.getElementById("lightbox");
+    var lightboxImg = document.getElementById("lightboxImg");
+    var lightboxClose = document.getElementById("lightboxClose");
+    if (lightbox && lightboxImg) {
+      var closeLightbox = function () {
+        lightbox.classList.remove("open");
+        lightbox.setAttribute("aria-hidden", "true");
+        lightboxImg.src = "";
+      };
+      document.querySelectorAll(".shot img").forEach(function (img) {
+        img.addEventListener("click", function () {
+          lightboxImg.src = img.src;
+          lightboxImg.alt = img.alt || "";
+          lightbox.classList.add("open");
+          lightbox.setAttribute("aria-hidden", "false");
+        });
+      });
+      lightbox.addEventListener("click", function (e) {
+        if (e.target === lightbox || e.target === lightboxClose) closeLightbox();
+      });
+      if (lightboxClose) lightboxClose.addEventListener("click", closeLightbox);
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && lightbox.classList.contains("open")) closeLightbox();
+      });
     }
 
     var form = document.getElementById("waForm");

@@ -244,6 +244,50 @@
       </div>
     </section>
 
+    <!-- Work gallery -->
+    <section class="section" id="work">
+      <div class="container">
+        <p class="eyebrow center" data-i18n="work.eyebrow">See the work</p>
+        <h2 class="section-title center" data-i18n="work.title">A look at the analytics I build</h2>
+        <p class="section-sub center" data-i18n="work.sub">Real tools from real engagements — demand forecasting, stock-out prevention, credit control and customer insight. Client identities and sensitive details are always kept confidential.</p>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img src="assets/charts/revenue-forecast.webp" alt="Cumulative revenue versus a probabilistic forecast band" loading="lazy" />
+            <figcaption data-i18n="work.cap1">Cumulative revenue against a probabilistic forecast band — catching pace and surprises early.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/stock-depletion.webp" alt="Stock depletion curve with predicted stock-out date" loading="lazy" />
+            <figcaption data-i18n="work.cap2">Stock-depletion curve with a predicted stock-out date and reorder lead time.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/sales-simulation.webp" alt="Monte-Carlo cumulative sales simulation" loading="lazy" />
+            <figcaption data-i18n="work.cap3">Monte-Carlo demand simulation — 2,000 possible futures with reorder timing.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/demand-simulation.webp" alt="Daily demand simulation separating bulk orders" loading="lazy" />
+            <figcaption data-i18n="work.cap4">Daily demand simulation, separating ordinary sales from bulk orders.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/sku-forecast.webp" alt="Per-product demand forecast ranges" loading="lazy" />
+            <figcaption data-i18n="work.cap5">Per-product demand forecast ranges to guide reorder quantities.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/new-vs-repeat.png" alt="New versus repeat customer sales by day" loading="lazy" />
+            <figcaption data-i18n="work.cap6">New vs repeat-customer demand, split day by day.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/billing-vs-revenue.png" alt="Billing visits versus invoiced revenue" loading="lazy" />
+            <figcaption data-i18n="work.cap7">Billing-visit frequency against invoiced revenue and a rolling benchmark.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/charts/credit-repayment.png" alt="Credit extended versus repayments by month" loading="lazy" />
+            <figcaption data-i18n="work.cap8">Credit extended versus repayments, tracked month by month.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
     <!-- Why me -->
     <section class="section section-alt">
       <div class="container">
@@ -309,6 +353,12 @@
       </div>
     </section>
   </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close">&times;</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
 
   <!-- Footer -->
   <footer class="site-footer">
