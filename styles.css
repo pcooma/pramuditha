@@ -136,6 +136,7 @@ img { max-width: 100%; }
 
 /* ---------- Sections ---------- */
 .section { padding: 76px 0; }
+section[id], [id] { scroll-margin-top: 84px; }
 .section-alt { background: var(--bg-alt); }
 .section-title { font-size: clamp(1.6rem, 3vw, 2.2rem); }
 .section-title.center { text-align: center; }
