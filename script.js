@@ -23,9 +23,9 @@
       "hero.eyebrow": "For entrepreneurs, SME owners &amp; growing businesses in Sri Lanka",
       "hero.title": "Turn your business data and daily operations into clear decisions and new growth.",
       "hero.lead": "I help Sri Lankan business owners find what is holding them back, fix and automate the process, and expand into new markets — backed by evidence, not guesswork.",
-      "hero.cta1": "Talk to me on WhatsApp",
-      "hero.cta2": "See how I can help",
-      "hero.note": "The first conversation is free and confidential.",
+      "hero.cta1": "For when you need me",
+      "hero.cta2": "See how I work",
+      "hero.note": "No hard sell. When the time is right, you'll know exactly where to look.",
       "hero.card.role": "Business &amp; Market Expansion Consultant",
       "hero.card.cred1": "University Lecturer at SLIIT — 10+ years teaching",
       "hero.card.cred2": "Master's in Business Studies — University of Colombo",
@@ -37,13 +37,13 @@
       "trust.3a": "10+ Years in Industry", "trust.3b": "Senior roles across engineering &amp; business",
       "trust.4a": "Evidence-Based", "trust.4b": "Every recommendation backed by data",
 
-      "problem.title": "Does this sound like your business?",
-      "problem.1": "You are busy every day, but you are not sure which products, customers or routes are actually making you money.",
-      "problem.2": "Your sales and stock data sits in a system, but you only see the full picture days after the month ends.",
-      "problem.3": "Overdue credit and unpaid invoices keep growing and chasing them eats up your team's time.",
-      "problem.4": "You want to grow into new areas or markets, but you are not sure where to start or whether it will pay off.",
-      "problem.5": "Too much depends on manual coordination, phone calls and memory — and mistakes slip through.",
-      "problem.close": "These are the exact problems I solve — with clear analysis, practical fixes, and decisions you can trust.",
+      "problem.title": "Whatever you run, some of this will sound familiar",
+      "problem.1": "You're busy from dawn to dusk — yet you can't say for certain which products, outlets or customers are truly making the money.",
+      "problem.2": "The numbers sit in a system or a pile of books, but the real picture only becomes clear long after the month has closed.",
+      "problem.3": "The money owed to you keeps climbing, and chasing it drains the very people you need out selling and serving customers.",
+      "problem.4": "You can sense there's room to grow — a new town, a new product, an online push — but not which move is worth making first.",
+      "problem.5": "Too much of the business lives in your own head and a few phone calls — and you quietly wonder what happens the day you step back.",
+      "problem.close": "Every growing business meets these quietly. The owners who get ahead are the ones who deal with them before they start to cost.",
 
       "services.eyebrow": "What I do",
       "services.title": "Services",
@@ -121,19 +121,19 @@
       "about.title": "Pramuditha Coomasaru",
       "about.p1": "I have taught at SLIIT as a university lecturer for over ten years' worth of academic experience, alongside senior roles in industry across operations, cost and project management. I combine that academic depth with hands-on business practice and a practical, data-first way of working.",
       "about.p2": "Alongside my Master's in Business Studies and Postgraduate Diploma in Business Management from the University of Colombo, I have built real analytics and process-automation systems for operating businesses. That mix — academia, industry and technology — is what I bring to every client.",
-      "about.p3": "My approach is simple: understand the business deeply, let the evidence lead, and deliver something practical that makes you money or saves you time.",
+      "about.p3": "My approach is simple: understand the business deeply, let the evidence lead, and hand you something practical that makes money or saves time. Clarity before the decision — and growth you can actually measure.",
       "about.cta": "Start a conversation",
 
-      "contact.eyebrow": "Let's talk",
-      "contact.title": "Tell me about your business",
-      "contact.sub": "Send me a short message on WhatsApp. The first conversation is free and completely confidential.",
-      "contact.wa": "Message me on WhatsApp — +94 77 772 8081",
-      "contact.or": "— or fill this in and it will open WhatsApp with your message ready —",
-      "contact.email": "Prefer email? Write to me at",
+      "contact.eyebrow": "When the time comes",
+      "contact.title": "You'll know where to find me",
+      "contact.sub": "Nothing to decide today. But when a question starts keeping you up at night, a quiet, confidential conversation is where clarity begins — no cost, no obligation.",
+      "contact.wa": "Save my WhatsApp — +94 77 772 8081",
+      "contact.or": "— or, whenever you're ready, leave a note and it opens WhatsApp with your message —",
+      "contact.email": "Prefer email? You'll find me at",
       "form.name": "Your name",
       "form.biz": "Your business / type of business",
-      "form.msg": "What would you like help with?",
-      "form.submit": "Open WhatsApp with my message",
+      "form.msg": "What's on your mind?",
+      "form.submit": "Send it when you're ready",
 
       "footer.role": "Business Analysis &amp; Market Expansion Consultant · Sri Lanka",
       "footer.wa": "WhatsApp: +94 77 772 8081",
@@ -145,7 +145,7 @@
     si: {
       "brand.role": "ව්‍යාපාර විශ්ලේෂණ හා වෙළඳපොළ ව්‍යාප්ති උපදේශක",
       "nav.services": "සේවා",
-      "nav.approach": "මා සේවය සපයන ආකාරය",
+      "nav.approach": "ප්‍රවේශය",
       "nav.proof": "සාක්ෂි",
       "nav.about": "මා ගැන",
       "nav.contact": "සම්බන්ධ වන්න",
@@ -153,9 +153,9 @@
       "hero.eyebrow": "ශ්‍රී ලංකාවේ ව්‍යවසායකයින්, කුඩා හා මධ්‍යම පරිමාණ ව්‍යාපාර හිමියන් සහ වර්ධනය වන ව්‍යාපාර සඳහා",
       "hero.title": "ඔබගේ ව්‍යාපාරයේ දත්ත සහ එදිනෙදා කටයුතු, පැහැදිලි තීරණ හා නව වර්ධනයක් බවට පත් කරගන්න.",
       "hero.lead": "ඔබගේ ව්‍යාපාරයේ ප්‍රගතියට බාධා වන්නේ කුමක්දැයි හඳුනාගෙන, ක්‍රියාවලීන් වඩාත් කාර්යක්ෂම කර, නව වෙළඳපොළවලට ව්‍යාප්ත වීමට — අනුමාන මත නොව නිවැරදි දත්ත මත පදනම්ව — මම ශ්‍රී ලාංකික ව්‍යාපාරිකයන්ට අත දෙමි.",
-      "hero.cta1": "WhatsApp හරහා මා අමතන්න",
-      "hero.cta2": "මා උපකාර වන ආකාරය බලන්න",
-      "hero.note": "පළමු සාකච්ඡාව නොමිලේ සහ සම්පූර්ණයෙන්ම රහසිගතයි.",
+      "hero.cta1": "ඔබට අවශ්‍ය වූ විට සඳහා",
+      "hero.cta2": "මා කරන්නේ කුමක්දැයි බලන්න",
+      "hero.note": "බල කිරීමක් නැත. නියම මොහොත පැමිණි විට, මා සොයාගත යුත්තේ කොහෙන්දැයි ඔබ හරියටම දනී.",
       "hero.card.role": "ව්‍යාපාර හා වෙළඳපොළ ව්‍යාප්ති උපදේශක",
       "hero.card.cred1": "SLIIT හි විශ්වවිද්‍යාල කථිකාචාර්ය — වසර 10+ ක ඉගැන්වීම්",
       "hero.card.cred2": "ව්‍යාපාර අධ්‍යයනය පිළිබඳ ශාස්ත්‍රපති උපාධිය — කොළඹ විශ්වවිද්‍යාලය",
@@ -167,13 +167,13 @@
       "trust.3a": "වසර 10+ ක කර්මාන්ත පළපුරුද්ද", "trust.3b": "ඉංජිනේරු හා ව්‍යාපාරික ක්ෂේත්‍රවල ජ්‍යෙෂ්ඨ තනතුරු",
       "trust.4a": "සාක්ෂි පදනම් කරගත්", "trust.4b": "සෑම නිර්දේශයක්ම දත්ත මගින් සනාථ කෙරේ",
 
-      "problem.title": "මේ තත්ත්වය ඔබගේ ව්‍යාපාරයටත් හුරුද?",
-      "problem.1": "ඔබ දිනපතා කාර්යබහුල වුවත්, සැබෑ ලාභය ලබා දෙන්නේ කුමන නිෂ්පාදන, පාරිභෝගිකයන් හෝ බෙදාහැරීම් මාර්ග ද යන්න පැහැදිලි නැත.",
-      "problem.2": "ඔබගේ විකුණුම් හා තොග දත්ත පද්ධතියක ඇතත්, සම්පූර්ණ චිත්‍රය ඔබට දැකගත හැක්කේ මාසය අවසන් වී දින කිහිපයකට පසුවය.",
-      "problem.3": "ගෙවීමට ඇති ණය හා හිඟ බිල්පත් දිනෙන් දින වැඩි වෙමින්, ඒවා අයකර ගැනීම ඔබගේ කණ්ඩායමේ වටිනා කාලය නාස්ති කරයි.",
-      "problem.4": "නව ප්‍රදේශ හෝ වෙළඳපොළවලට ව්‍යාප්ත වීමට ඔබ කැමති වුවත්, ආරම්භ කළ යුත්තේ කොහෙන්ද, එය ප්‍රතිඵලදායක වේද යන්න විශ්වාස නැත.",
-      "problem.5": "බොහෝ දේ අතින් කරන සම්බන්ධීකරණය, දුරකථන ඇමතුම් හා මතකය මත රඳා පවතින නිසා වැරදි සිදු වේ.",
-      "problem.close": "මා විසඳන්නේ හරියටම මේ ගැටලුය — පැහැදිලි විශ්ලේෂණයක්, ප්‍රායෝගික විසඳුම් සහ ඔබට විශ්වාසයෙන් පිළිගත හැකි තීරණ සමඟිනි.",
+      "problem.title": "ඔබ කුමක් කළත්, මෙයින් සමහරක් ඔබට හුරුපුරුදු විය හැක",
+      "problem.1": "උදේ සිට රෑ වනතුරු ඔබ කාර්යබහුලයි — එහෙත් සැබෑ ලාභය ලබා දෙන්නේ කුමන නිෂ්පාදන, අලෙවිසැල් හෝ පාරිභෝගිකයන් ද යන්න නිශ්චිතව කිව නොහැක.",
+      "problem.2": "අංක පද්ධතියක හෝ පොත් ගොඩක තිබුණද, සැබෑ චිත්‍රය පැහැදිලි වන්නේ මාසය අවසන් වී බොහෝ කල් ගත වූ පසුවය.",
+      "problem.3": "ඔබට ලැබිය යුතු මුදල් දිනෙන් දින ඉහළ යන අතර, ඒවා අයකර ගැනීම විකිණීමට හා පාරිභෝගික සේවයට යෙදවිය යුතු ඔබේම අයගේ කාලය නාස්ති කරයි.",
+      "problem.4": "වර්ධනයට ඉඩ ඇති බව ඔබට හැඟේ — නව නගරයක්, නව නිෂ්පාදනයක්, හෝ online ප්‍රවේශයක් — නමුත් මුලින්ම කළ යුත්තේ කුමන පියවරද යන්න නොවැටහේ.",
+      "problem.5": "ව්‍යාපාරයෙන් වැඩි කොටසක් ඔබේම හිසෙහි හා දුරකථන ඇමතුම් කිහිපයක රැඳී ඇති අතර, ඔබ පසෙකට වන දිනෙක කුමක් වේදැයි ඔබ නිහඬව කල්පනා කරයි.",
+      "problem.close": "සෑම වර්ධනය වන ව්‍යාපාරයක්ම මේවාට නිහඬව මුහුණ දෙයි. ඉදිරියට යන්නේ, ඒවා පිරිවැයක් වීමට පෙර විසඳා ගන්නා අයයි.",
 
       "services.eyebrow": "මා සපයන සේවා",
       "services.title": "සේවා",
@@ -251,19 +251,19 @@
       "about.title": "Pramuditha Coomasaru",
       "about.p1": "SLIIT හි විශ්වවිද්‍යාල කථිකාචාර්යවරයෙකු ලෙස වසර දහයකට අධික ඉගැන්වීම් පළපුරුද්දක් මට ඇති අතර, ඒ සමඟම මෙහෙයුම්, පිරිවැය හා ව්‍යාපෘති කළමනාකරණයේ ජ්‍යෙෂ්ඨ තනතුරු දැරූවෙමි. එම අධ්‍යයන ගැඹුර, ප්‍රායෝගික ව්‍යාපාරික පළපුරුද්ද හා දත්ත මත පදනම් වූ ක්‍රියා විලාසයක් සමඟ මම ඒකාබද්ධ කරමි.",
       "about.p2": "කොළඹ විශ්වවිද්‍යාලයෙන් හිමි කරගත් ව්‍යාපාර අධ්‍යයන ශාස්ත්‍රපති උපාධිය හා ව්‍යාපාර කළමනාකරණ පශ්චාත් උපාධි ඩිප්ලෝමාව සමඟම, ක්‍රියාත්මක ව්‍යාපාර සඳහා සැබෑ දත්ත විශ්ලේෂණ හා ක්‍රියාවලි ස්වයංක්‍රීයකරණ පද්ධති මම ගොඩනගා ඇත්තෙමි. අධ්‍යයනය, පළපුරුද්ද හා තාක්ෂණය යන සුසංයෝගය මම සෑම සේවාදායකයෙකුටම ගෙන එමි.",
-      "about.p3": "මගේ ප්‍රවේශය සරලය: ව්‍යාපාරය ගැඹුරින් අවබෝධ කරගැනීම, සාක්ෂියට මුල් තැන දීම, සහ ඔබට ලාභ ලැබෙන හෝ කාලය ඉතිරි කරන ප්‍රායෝගික ප්‍රතිඵලයක් ලබා දීම.",
+      "about.p3": "මගේ ප්‍රවේශය සරලය: ව්‍යාපාරය ගැඹුරින් අවබෝධ කරගැනීම, සාක්ෂියට මුල් තැන දීම, සහ ඔබට මුදල් ඉපැයෙන හෝ කාලය ඉතිරි කරන ප්‍රායෝගික දෙයක් ලබා දීම. තීරණයට පෙර පැහැදිලිකම — සහ මැනිය හැකි වර්ධනයක්.",
       "about.cta": "සාකච්ඡාවක් ආරම්භ කරමු",
 
-      "contact.eyebrow": "අපි කතා කරමු",
-      "contact.title": "ඔබගේ ව්‍යාපාරය ගැන මට කියන්න",
-      "contact.sub": "WhatsApp හරහා කෙටි පණිවිඩයක් මට එවන්න. පළමු සාකච්ඡාව නොමිලේ සහ සම්පූර්ණයෙන්ම රහසිගතයි.",
-      "contact.wa": "WhatsApp හරහා මට පණිවිඩයක් එවන්න — +94 77 772 8081",
-      "contact.or": "— නැතහොත් මෙය පුරවන්න; ඔබගේ පණිවිඩය සූදානම්ව WhatsApp විවෘත වනු ඇත —",
-      "contact.email": "විද්‍යුත් තැපෑලට කැමතිද? මට ලියන්න",
+      "contact.eyebrow": "නියම මොහොත පැමිණි විට",
+      "contact.title": "මා සොයාගත යුත්තේ කොහෙන්දැයි ඔබ දැනගනී",
+      "contact.sub": "අද තීරණයක් ගැනීමට අවශ්‍ය නැත. නමුත් යම් ප්‍රශ්නයක් ඔබේ නින්ද නැති කරන්නට පටන් ගත් විට, නිහඬ, රහසිගත සංවාදයකින් පැහැදිලිකම ආරම්භ වේ — කිසිදු පිරිවැයක් හෝ බැඳීමක් නැත.",
+      "contact.wa": "මගේ WhatsApp අංකය සුරකින්න — +94 77 772 8081",
+      "contact.or": "— නැතහොත්, ඔබ සූදානම් වූ විට, කෙටි සටහනක් තබන්න; එය ඔබගේ පණිවිඩය සමඟ WhatsApp විවෘත කරයි —",
+      "contact.email": "විද්‍යුත් තැපෑලට කැමතිද? මා හමුවන්නේ",
       "form.name": "ඔබගේ නම",
       "form.biz": "ඔබගේ ව්‍යාපාරය / ව්‍යාපාර වර්ගය",
-      "form.msg": "ඔබට අවශ්‍ය උපකාරය කුමක්ද?",
-      "form.submit": "මගේ පණිවිඩය සමඟ WhatsApp විවෘත කරන්න",
+      "form.msg": "ඔබගේ සිතේ ඇත්තේ කුමක්ද?",
+      "form.submit": "සූදානම් වූ විට එවන්න",
 
       "footer.role": "ව්‍යාපාර විශ්ලේෂණ හා වෙළඳපොළ ව්‍යාප්ති උපදේශක · ශ්‍රී ලංකාව",
       "footer.wa": "WhatsApp: +94 77 772 8081",
@@ -328,6 +328,46 @@
           burger.setAttribute("aria-expanded", "false");
         });
       });
+    }
+
+    // Header shadow on scroll
+    var header = document.querySelector(".site-header");
+    if (header) {
+      var onScroll = function () {
+        if (window.scrollY > 8) header.classList.add("scrolled");
+        else header.classList.remove("scrolled");
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+    }
+
+    // Scroll-reveal animations (progressive, respects reduced motion)
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var revealSel = ".eyebrow.center, .section-title, .section-sub.center, .problem-list li, " +
+      ".problem-close, .card, .step, .strength, .why-item, .proof-case, .proof-credibility, " +
+      ".proof-pubs, .about-photo, .about-copy, .contact-form, .contact-email";
+    var revealEls = Array.prototype.slice.call(document.querySelectorAll(revealSel));
+
+    if (reduce || !("IntersectionObserver" in window)) {
+      revealEls.forEach(function (el) { el.classList.add("in"); });
+    } else {
+      // stagger items that share a grid parent
+      revealEls.forEach(function (el) {
+        var sibs = Array.prototype.filter.call(el.parentNode.children, function (c) {
+          return c.className === el.className || (c.classList && c.classList.contains(el.classList[0]));
+        });
+        var idx = sibs.indexOf(el);
+        if (idx > 0 && idx < 8) el.style.transitionDelay = (idx * 80) + "ms";
+      });
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in");
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+      revealEls.forEach(function (el) { io.observe(el); });
     }
 
     var form = document.getElementById("waForm");
