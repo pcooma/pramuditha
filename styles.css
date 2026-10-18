@@ -83,10 +83,19 @@ img { max-width: 100%; }
   html.js .about-photo,
   html.js .about-copy,
   html.js .contact-form,
-  html.js .contact-email {
+  html.js .contact-email,
+  html.js .band-eyebrow,
+  html.js .band-title,
+  html.js .band-text {
     opacity: 0;
     transform: translateY(26px);
     transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
+  }
+  html.js .band-figure {
+    opacity: 0;
+    transform: translateY(34px) scale(.985);
+    transition: opacity .85s ease, transform .85s cubic-bezier(.22,.61,.36,1);
+    transition-delay: .08s;
   }
   html.js .in { opacity: 1 !important; transform: none !important; }
 }
@@ -279,6 +288,28 @@ section[id], [id] { scroll-margin-top: 84px; }
 @media (max-width: 760px) {
   .gallery { grid-template-columns: 1fr; }
 }
+
+/* In-practice bands */
+.band { overflow: hidden; }
+.band-inner { max-width: 960px; margin: 0 auto; text-align: center; }
+.band-eyebrow { text-transform: uppercase; letter-spacing: .09em; font-size: .78rem; font-weight: 700; color: var(--gold-600); margin: 0 0 .7em; }
+.band-title { font-size: clamp(1.5rem, 3vw, 2.1rem); margin: 0 0 .45em; }
+.band-text { font-size: 1.12rem; color: var(--muted); max-width: 60ch; margin: 0 auto 34px; }
+.band-figure { margin: 0; border-radius: var(--radius); overflow: hidden; cursor: zoom-in; transition: transform .2s ease, box-shadow .2s ease; }
+.band-figure:hover { transform: translateY(-3px); }
+.band-figure img { display: block; width: 100%; height: auto; }
+.band-note { margin: 18px auto 0; font-size: .85rem; font-style: italic; }
+
+.band-light { background: var(--bg-alt); }
+.band-light .band-figure { border: 1px solid var(--line); box-shadow: var(--shadow); }
+.band-light .band-note { color: var(--muted); }
+
+.band-dark { background: var(--bg-dark); }
+.band-dark .band-eyebrow { color: var(--gold); }
+.band-dark .band-title { color: #fff; }
+.band-dark .band-text { color: #c3d0e4; }
+.band-dark .band-figure { border: 1px solid rgba(255,255,255,.1); box-shadow: 0 18px 50px rgba(0,0,0,.35); }
+.band-dark .band-note { color: #9fb0c9; }
 
 /* Why grid */
 .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 40px; }

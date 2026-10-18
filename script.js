@@ -118,6 +118,20 @@
       "work.cap7": "Billing visit frequency compared against invoiced revenue and a rolling benchmark",
       "work.cap8": "Credit extended set against repayments and tracked across each month",
 
+      "band1.tag": "In practice",
+      "band1.title": "Plan with open eyes",
+      "band1.text": "I model thousands of possible futures for your demand so that you can enter a new market or place a large order with open eyes rather than a hunch.",
+      "band.note": "These are real outputs from live work and every client detail is kept strictly confidential.",
+      "band2.tag": "In practice",
+      "band2.title": "See the pace early",
+      "band2.text": "I follow your revenue against a live forecast band so that the real pace of the business and any surprise appear early while you still have time to act.",
+      "band3.tag": "In practice",
+      "band3.title": "Keep credit in hand",
+      "band3.text": "I set the credit you extend against the repayments you collect each month so that the money owed to you never quietly grows beyond your reach.",
+      "band4.tag": "In practice",
+      "band4.title": "Order the right amount",
+      "band4.text": "I build a demand forecast range for every product so that you order the right quantity and tie up far less cash in stock that moves slowly.",
+
       "why.title": "Why work with me",
       "why.1.t": "I know the local market",
       "why.1.b": "I understand Sri Lankan business as it really is in both Sinhala and English and I know how dealer networks and credit and field sales truly work here.",
@@ -259,6 +273,20 @@
       "work.cap7": "අලෙවි නියෝජිත පැමිණීම් වාර ගණන සහ බිල්පත් ආදායම අතර සංසන්දනය.",
       "work.cap8": "ලබා දුන් ණය මුදල් සහ නැවත අයකර ගැනීම් පිළිබඳ මාසික ප්‍රගතිය.",
 
+      "band1.tag": "ප්‍රායෝගිකව",
+      "band1.title": "විවර ඇසින් සැලසුම් කරන්න",
+      "band1.text": "ඔබගේ ඉල්ලුම සඳහා හැකි අනාගත දහස් ගණනක් මම ආදර්ශනය කරමි එවිට අනුමානයකට නොව විවර ඇසින් නව වෙළඳපොළකට හෝ විශාල ඇණවුමකට ඔබට පිවිසිය හැක.",
+      "band.note": "මේවා සජීවී කාර්යයෙන් ලත් සැබෑ ප්‍රතිඵල වන අතර සෑම පාරිභෝගික විස්තරයක්ම දැඩි රහස්‍යභාවයෙන් තබා ගනී.",
+      "band2.tag": "ප්‍රායෝගිකව",
+      "band2.title": "වේගය කල්තියා දකින්න",
+      "band2.text": "සජීවී පුරෝකථන පටියකට එරෙහිව ඔබගේ ආදායම මම අනුගමනය කරමි එවිට ව්‍යාපාරයේ සැබෑ වේගය හා ඕනෑම අනපේක්ෂිතයක් ක්‍රියා කිරීමට කාලය ඇති විටම ඔබට කල්තියා පෙනේ.",
+      "band3.tag": "ප්‍රායෝගිකව",
+      "band3.title": "ණය පාලනයේ තබා ගන්න",
+      "band3.text": "ඔබ ලබා දෙන ණය එක් එක් මාසයේ එකතු කරන ආපසු ගෙවීම්වලට එරෙහිව මම තබමි එවිට ඔබට ලැබිය යුතු මුදල කිසිදා නිහඬව ඔබේ හැකියාව ඉක්මවා වර්ධනය නොවේ.",
+      "band4.tag": "ප්‍රායෝගිකව",
+      "band4.title": "නිවැරදි ප්‍රමාණය ඇණවුම් කරන්න",
+      "band4.text": "සෑම නිෂ්පාදනයකටම ඉල්ලුම් පුරෝකථන පරාසයක් මම ගොඩනගමි එවිට ඔබ නිවැරදි ප්‍රමාණය ඇණවුම් කර මන්දගාමී තොගවල අඩු මුදලක් රැඳවිය හැක.",
+
       "why.title": "මෙම සේවාවේ සුවිශේෂී ලක්ෂණ",
       "why.1.t": "දේශීය වෙළෙඳපොළ පිළිබඳ අවබෝධය",
       "why.1.b": "සිංහල හෝ ඉංග්‍රීසි භාෂාවෙන් කටයුතු කළ හැකි අතර මෙරට අලෙවි නියෝජිත ජාල සහ ණය ගනුදෙනු ක්‍රියාත්මක වන ආකාරය පිළිබඳ මනා අවබෝධයක් පවතී.",
@@ -367,7 +395,7 @@
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var revealSel = ".eyebrow.center, .section-title, .section-sub.center, .problem-list li, " +
       ".problem-close, .card, .step, .strength, .why-item, .proof-case, .proof-credibility, " +
-      ".proof-pubs, .shot, .about-photo, .about-copy, .contact-form, .contact-email";
+      ".proof-pubs, .band-eyebrow, .band-title, .band-text, .band-figure, .about-photo, .about-copy, .contact-form, .contact-email";
     var revealEls = Array.prototype.slice.call(document.querySelectorAll(revealSel));
 
     if (reduce || !("IntersectionObserver" in window)) {
@@ -402,7 +430,7 @@
         lightbox.setAttribute("aria-hidden", "true");
         lightboxImg.src = "";
       };
-      document.querySelectorAll(".shot img").forEach(function (img) {
+      document.querySelectorAll(".band-figure img").forEach(function (img) {
         img.addEventListener("click", function () {
           lightboxImg.src = img.src;
           lightboxImg.alt = img.alt || "";
