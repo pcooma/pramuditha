@@ -157,8 +157,19 @@
       "contact.email": "Email",
       "form.name": "Your name",
       "form.biz": "Your business or type of business",
+      "form.area": "Where you are based",
       "form.msg": "What is on your mind",
       "form.submit": "Send it whenever you are ready",
+      "goal.label": "What you would like to improve",
+      "goal.opt0": "Choose one if you like",
+      "goal.opt1": "Sales and revenue",
+      "goal.opt2": "Processes and automation",
+      "goal.opt3": "New markets and distribution",
+      "goal.opt4": "Data and reports",
+      "goal.opt5": "Something else",
+      "float.status": "Replies on WhatsApp",
+      "float.sub": "Share a few details and WhatsApp will open with your note already prepared",
+      "float.send": "Open WhatsApp",
 
       "footer.role": "Business Analysis and Market Expansion Consultant in Sri Lanka",
       "footer.wa": "WhatsApp +94 77 772 8081",
@@ -300,8 +311,19 @@
       "contact.email": "විද්‍යුත් තැපෑල",
       "form.name": "නම",
       "form.biz": "ව්‍යාපාරයේ නම හෝ ස්වභාවය",
+      "form.area": "ඔබ සිටින ප්‍රදේශය",
       "form.msg": "කෙටි සටහනක්",
       "form.submit": "පණිවිඩය යොමු කරන්න",
+      "goal.label": "වැඩිදියුණු කිරීමට කැමති අංශය",
+      "goal.opt0": "කැමති නම් එකක් තෝරන්න",
+      "goal.opt1": "විකුණුම් සහ ආදායම",
+      "goal.opt2": "ක්‍රියාවලි සහ ස්වයංක්‍රීයකරණය",
+      "goal.opt3": "නව වෙළෙඳපොළ සහ බෙදාහැරීම",
+      "goal.opt4": "දත්ත සහ වාර්තා",
+      "goal.opt5": "වෙනත් කරුණක්",
+      "float.status": "WhatsApp හරහා පිළිතුරු දෙයි",
+      "float.sub": "කරුණු කිහිපයක් සටහන් කළ විට ඔබේ පණිවිඩය සමඟ WhatsApp විවෘත වේ",
+      "float.send": "WhatsApp විවෘත කරන්න",
 
       "footer.role": "ශ්‍රී ලංකාවේ ව්‍යාපාර විශ්ලේෂණ සහ වෙළෙඳපොළ ව්‍යාප්ති උපදේශක",
       "footer.wa": "WhatsApp +94 77 772 8081",
@@ -329,6 +351,11 @@
       if (val == null) return;
       val = val.replace("{year}", year);
       el.innerHTML = val;
+    });
+
+    document.querySelectorAll("[data-i18n-ph]").forEach(function (el) {
+      var val = dict[el.getAttribute("data-i18n-ph")];
+      if (val != null) el.setAttribute("placeholder", val);
     });
 
     var toggle = document.getElementById("langToggle");
@@ -435,27 +462,77 @@
       });
     }
 
-    var form = document.getElementById("waForm");
-    if (form) form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var name = (document.getElementById("cName").value || "").trim();
-      var biz = (document.getElementById("cBiz").value || "").trim();
-      var msg = (document.getElementById("cMsg").value || "").trim();
+    function val(id) {
+      var el = document.getElementById(id);
+      return el ? (el.value || "").trim() : "";
+    }
+    function goalText(id) {
+      var el = document.getElementById(id);
+      if (!el || !el.value) return "";
+      return (el.options[el.selectedIndex].text || "").trim();
+    }
 
+    function buildMessage(f) {
       var lines;
       if (currentLang === "si") {
         lines = ["ආයුබෝවන් ප්‍රමුදිත."];
-        if (name) lines.push("නම " + name);
-        if (biz) lines.push("ව්‍යාපාරය " + biz);
-        lines.push(msg || "ව්‍යාපාරික කටයුත්තක් සම්බන්ධයෙන් තොරතුරු දැනගැනීමට කැමැත්තෙමි.");
+        if (f.name) lines.push("නම " + f.name);
+        if (f.biz) lines.push("ව්‍යාපාරය " + f.biz);
+        if (f.area) lines.push("ප්‍රදේශය " + f.area);
+        if (f.goal) lines.push("අවශ්‍යතාව " + f.goal);
+        lines.push(f.msg || "ව්‍යාපාරික කටයුත්තක් සම්බන්ධයෙන් තොරතුරු දැනගැනීමට කැමැත්තෙමි.");
       } else {
         lines = ["Hello Pramuditha"];
-        if (name) lines.push("My name is " + name + ".");
-        if (biz) lines.push("My business is " + biz + ".");
-        lines.push(msg || "I would like to talk about my business.");
+        if (f.name) lines.push("My name is " + f.name + ".");
+        if (f.biz) lines.push("My business is " + f.biz + ".");
+        if (f.area) lines.push("I am based in " + f.area + ".");
+        if (f.goal) lines.push("I would like help with " + f.goal + ".");
+        lines.push(f.msg || "I would like to talk about my business.");
       }
-      window.open(waLink(lines.join("\n")), "_blank", "noopener");
+      return lines.join("\n");
+    }
+
+    function openWa(msg) {
+      var win = window.open(waLink(msg), "_blank");
+      if (win) { try { win.opener = null; } catch (e) {} }
+    }
+
+    var form = document.getElementById("waForm");
+    if (form) form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      openWa(buildMessage({
+        name: val("cName"), biz: val("cBiz"), area: val("cArea"),
+        goal: goalText("cGoal"), msg: val("cMsg")
+      }));
     });
+
+    // Floating WhatsApp panel
+    var waFloat = document.getElementById("waFloat");
+    var waFab = document.getElementById("waFab");
+    var waClose = document.getElementById("waPanelClose");
+    var waPanel = document.getElementById("waPanel");
+    if (waFloat && waFab) {
+      var setPanel = function (open) {
+        waFloat.classList.toggle("open", open);
+        waFab.setAttribute("aria-expanded", open ? "true" : "false");
+        if (waPanel) waPanel.setAttribute("aria-hidden", open ? "false" : "true");
+        if (open) { var fn = document.getElementById("fName"); if (fn) fn.focus(); }
+      };
+      waFab.addEventListener("click", function () { setPanel(!waFloat.classList.contains("open")); });
+      if (waClose) waClose.addEventListener("click", function () { setPanel(false); });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && waFloat.classList.contains("open")) setPanel(false);
+      });
+      var floatForm = document.getElementById("waFloatForm");
+      if (floatForm) floatForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        openWa(buildMessage({
+          name: val("fName"), biz: val("fBiz"), area: "",
+          goal: goalText("fGoal"), msg: val("fMsg")
+        }));
+        setPanel(false);
+      });
+    }
   }
 
   if (document.readyState === "loading") {
