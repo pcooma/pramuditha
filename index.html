@@ -349,16 +349,26 @@
               <input type="text" id="cArea" name="area" />
             </div>
             <div>
-              <label for="cGoal" data-i18n="goal.label">What you would like to improve</label>
-              <select id="cGoal" name="goal">
-                <option value="" data-i18n="goal.opt0">Choose one if you like</option>
-                <option value="sales" data-i18n="goal.opt1">Sales and revenue</option>
-                <option value="process" data-i18n="goal.opt2">Processes and automation</option>
-                <option value="market" data-i18n="goal.opt3">New markets and distribution</option>
-                <option value="data" data-i18n="goal.opt4">Data and reports</option>
-                <option value="other" data-i18n="goal.opt5">Something else</option>
+              <label for="cRev" data-i18n="form.rev">Monthly revenue (optional)</label>
+              <select id="cRev" name="revenue">
+                <option value="" data-i18n="rev.opt0">Prefer not to say</option>
+                <option value="1" data-i18n="rev.opt1">Below Rs 250,000</option>
+                <option value="2" data-i18n="rev.opt2">Rs 250,000 to 1 million</option>
+                <option value="3" data-i18n="rev.opt3">Rs 1 million to 5 million</option>
+                <option value="4" data-i18n="rev.opt4">Above Rs 5 million</option>
               </select>
             </div>
+          </div>
+          <div class="field">
+            <label for="cGoal" data-i18n="goal.label">What you would like to improve</label>
+            <select id="cGoal" name="goal">
+              <option value="" data-i18n="goal.opt0">Choose one if you like</option>
+              <option value="sales" data-i18n="goal.opt1">Sales and revenue</option>
+              <option value="process" data-i18n="goal.opt2">Processes and automation</option>
+              <option value="market" data-i18n="goal.opt3">New markets and distribution</option>
+              <option value="data" data-i18n="goal.opt4">Data and reports</option>
+              <option value="other" data-i18n="goal.opt5">Something else</option>
+            </select>
           </div>
           <div class="field">
             <label for="cMsg" data-i18n="form.msg">What is on your mind</label>
@@ -391,8 +401,15 @@
         <form class="wa-panel-form" id="waFloatForm" novalidate>
           <input type="text" id="fName" data-i18n-ph="form.name" placeholder="Your name" autocomplete="name" />
           <input type="text" id="fBiz" data-i18n-ph="form.biz" placeholder="Your business or type of business" />
-          <select id="fGoal">
-            <option value="" data-i18n="goal.opt0">Choose one if you like</option>
+          <select id="fRev" aria-label="Monthly revenue">
+            <option value="" data-i18n="rev.label">Monthly revenue if you wish</option>
+            <option value="1" data-i18n="rev.opt1">Below Rs 250,000</option>
+            <option value="2" data-i18n="rev.opt2">Rs 250,000 to 1 million</option>
+            <option value="3" data-i18n="rev.opt3">Rs 1 million to 5 million</option>
+            <option value="4" data-i18n="rev.opt4">Above Rs 5 million</option>
+          </select>
+          <select id="fGoal" aria-label="What you would like to improve">
+            <option value="" data-i18n="goal.label">What you would like to improve</option>
             <option value="sales" data-i18n="goal.opt1">Sales and revenue</option>
             <option value="process" data-i18n="goal.opt2">Processes and automation</option>
             <option value="market" data-i18n="goal.opt3">New markets and distribution</option>
@@ -401,6 +418,7 @@
           </select>
           <textarea id="fMsg" rows="3" data-i18n-ph="form.msg" placeholder="What is on your mind"></textarea>
           <button type="submit" class="btn btn-whatsapp" data-i18n="float.send">Open WhatsApp</button>
+          <p class="wa-panel-hint" data-i18n="float.hint">Share only what you are comfortable with and every detail you send stays private</p>
         </form>
       </div>
     </div>
@@ -435,6 +453,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=7"></script>
+  <script src="script.js?v=8"></script>
 </body>
 </html>

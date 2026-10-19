@@ -158,6 +158,7 @@
       "form.name": "Your name",
       "form.biz": "Your business or type of business",
       "form.area": "Where you are based",
+      "form.rev": "Monthly revenue (optional)",
       "form.msg": "What is on your mind",
       "form.submit": "Send it whenever you are ready",
       "goal.label": "What you would like to improve",
@@ -167,8 +168,15 @@
       "goal.opt3": "New markets and distribution",
       "goal.opt4": "Data and reports",
       "goal.opt5": "Something else",
+      "rev.label": "Monthly revenue if you wish",
+      "rev.opt0": "Prefer not to say",
+      "rev.opt1": "Below Rs 250,000",
+      "rev.opt2": "Rs 250,000 to 1 million",
+      "rev.opt3": "Rs 1 million to 5 million",
+      "rev.opt4": "Above Rs 5 million",
       "float.status": "Replies on WhatsApp",
       "float.sub": "Share a few details and WhatsApp will open with your note already prepared",
+      "float.hint": "Share only what you are comfortable with and every detail you send stays private",
       "float.send": "Open WhatsApp",
 
       "footer.role": "Business Analysis and Market Expansion Consultant in Sri Lanka",
@@ -312,6 +320,7 @@
       "form.name": "නම",
       "form.biz": "ව්‍යාපාරයේ නම හෝ ස්වභාවය",
       "form.area": "ඔබ සිටින ප්‍රදේශය",
+      "form.rev": "මාසික ආදායම (කැමති නම්)",
       "form.msg": "කෙටි සටහනක්",
       "form.submit": "පණිවිඩය යොමු කරන්න",
       "goal.label": "වැඩිදියුණු කිරීමට කැමති අංශය",
@@ -321,8 +330,15 @@
       "goal.opt3": "නව වෙළෙඳපොළ සහ බෙදාහැරීම",
       "goal.opt4": "දත්ත සහ වාර්තා",
       "goal.opt5": "වෙනත් කරුණක්",
+      "rev.label": "කැමති නම් මාසික ආදායම",
+      "rev.opt0": "කියන්න කැමති නැත",
+      "rev.opt1": "රු. 250,000 ට අඩු",
+      "rev.opt2": "රු. 250,000 සිට මිලියන 1",
+      "rev.opt3": "රු. මිලියන 1 සිට මිලියන 5",
+      "rev.opt4": "රු. මිලියන 5 ට වැඩි",
       "float.status": "WhatsApp හරහා පිළිතුරු දෙයි",
       "float.sub": "කරුණු කිහිපයක් සටහන් කළ විට ඔබේ පණිවිඩය සමඟ WhatsApp විවෘත වේ",
+      "float.hint": "ඔබ කැමති තොරතුරු පමණක් බෙදා ගන්න සහ ඔබ එවන සෑම විස්තරයක්ම රහසිගතව තබා ගැනේ",
       "float.send": "WhatsApp විවෘත කරන්න",
 
       "footer.role": "ශ්‍රී ලංකාවේ ව්‍යාපාර විශ්ලේෂණ සහ වෙළෙඳපොළ ව්‍යාප්ති උපදේශක",
@@ -479,6 +495,7 @@
         if (f.name) lines.push("නම " + f.name);
         if (f.biz) lines.push("ව්‍යාපාරය " + f.biz);
         if (f.area) lines.push("ප්‍රදේශය " + f.area);
+        if (f.rev) lines.push("මාසික ආදායම " + f.rev);
         if (f.goal) lines.push("අවශ්‍යතාව " + f.goal);
         lines.push(f.msg || "ව්‍යාපාරික කටයුත්තක් සම්බන්ධයෙන් තොරතුරු දැනගැනීමට කැමැත්තෙමි.");
       } else {
@@ -486,6 +503,7 @@
         if (f.name) lines.push("My name is " + f.name + ".");
         if (f.biz) lines.push("My business is " + f.biz + ".");
         if (f.area) lines.push("I am based in " + f.area + ".");
+        if (f.rev) lines.push("My monthly revenue is in the range " + f.rev + ".");
         if (f.goal) lines.push("I would like help with " + f.goal + ".");
         lines.push(f.msg || "I would like to talk about my business.");
       }
@@ -502,7 +520,7 @@
       e.preventDefault();
       openWa(buildMessage({
         name: val("cName"), biz: val("cBiz"), area: val("cArea"),
-        goal: goalText("cGoal"), msg: val("cMsg")
+        rev: goalText("cRev"), goal: goalText("cGoal"), msg: val("cMsg")
       }));
     });
 
@@ -528,7 +546,7 @@
         e.preventDefault();
         openWa(buildMessage({
           name: val("fName"), biz: val("fBiz"), area: "",
-          goal: goalText("fGoal"), msg: val("fMsg")
+          rev: goalText("fRev"), goal: goalText("fGoal"), msg: val("fMsg")
         }));
         setPanel(false);
       });
