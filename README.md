@@ -2,7 +2,7 @@
 
 A bilingual (English / සිංහල) website for **Pramuditha Coomasaru**, a Business Analysis & Market Expansion consultant serving entrepreneurs, SME owners and growing businesses in Sri Lanka.
 
-🌐 **Live site:** https://pcooma.github.io/pramuditha/
+🌐 **Live site:** https://pcooma.com/
 
 ## Services featured
 - Business Analysis & Process Automation
