@@ -145,8 +145,8 @@
 
       "about.eyebrow": "About",
       "about.title": "Pramuditha Coomasaru",
-      "about.p1": "I have taught at SLIIT as a university lecturer for more than ten years and I have held senior roles in industry across operations and cost and project management over the same career.",
-      "about.p2": "I also hold a Master's in Business Studies and a Postgraduate Diploma in Business Management from the University of Colombo and I am now reading for a PhD and I have built real analytics and automation systems for working businesses.",
+      "about.p1": "I have spent more than ten years teaching at university and holding senior roles in industry and I bring both of those worlds to the way I work with you.",
+      "about.p2": "That background matters less than what it lets me do which is to look past the noise and show you clearly what your own numbers are telling you about your business.",
       "about.p3": "My way of working is simple because I understand the business deeply and I let the evidence lead and I hand you something practical that earns money or saves you time.",
       "about.cta": "Start a conversation",
 
@@ -308,8 +308,8 @@
 
       "about.eyebrow": "මා පිළිබඳව",
       "about.title": "ප්‍රමුදිත කූමසාරු",
-      "about.p1": "වසර දහයකට වැඩි කාලයක් SLIIT ආයතනයේ විශ්වවිද්‍යාල කථිකාචාර්යවරයෙකු ලෙස කටයුතු කරන අතර මෙහෙයුම් හා පිරිවැය කළමනාකරණ ක්ෂේත්‍රයන්හි ජ්‍යෙෂ්ඨ තනතුරු හොබවා ඇත. එම ශාස්ත්‍රීය දැනුම සහ ප්‍රායෝගික ව්‍යාපාරික අත්දැකීම් එක් කරමින් ව්‍යාපාර උපදේශන කටයුතු සිදු කෙරේ.",
-      "about.p2": "කොළඹ විශ්වවිද්‍යාලයෙන් ලබාගත් ව්‍යාපාර අධ්‍යයනපති උපාධිය සහ ව්‍යාපාර කළමනාකරණ පශ්චාත් උපාධි ඩිප්ලෝමාවට අමතරව මේ වන විට ආචාර්ය උපාධිය හදාරමින් සිටින අතර ව්‍යාපාර රැසක් සඳහා ප්‍රායෝගික දත්ත විශ්ලේෂණ සහ ස්වයංක්‍රීයකරණ පද්ධති නිර්මාණය කර ඇත.",
+      "about.p1": "විශ්වවිද්‍යාල ඉගැන්වීමේ වසර දහයකට වැඩි පළපුරුද්දක් සහ කර්මාන්ත ක්ෂේත්‍රයේ ජ්‍යෙෂ්ඨ තනතුරුවල අත්දැකීම් ඒ දෙකම ඔබ සමඟ වැඩ කරන ආකාරයට මා එක් කරමි.",
+      "about.p2": "එම පසුබිමට වඩා වැදගත් වන්නේ ඔබේම දත්ත ඔබේ ව්‍යාපාරය ගැන පවසන දේ පැහැදිලිව ඔබට පෙන්වා දීමට එය මට ඉඩ සලසන බවයි.",
       "about.p3": "ව්‍යාපාරය හොඳින් අවබෝධ කර ගැනීමත් දත්ත මත පමණක් පදනම් වීමත් කාලය හා මුදල් ඉතිරි කරන ප්‍රායෝගික විසඳුමක් ලබා දීමත් මෙහි මූලික ප්‍රතිපත්තියයි.",
       "about.cta": "සම්බන්ධ කරගත හැකි තොරතුරු",
 
