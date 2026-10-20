@@ -30,6 +30,7 @@
       "hero.card.cred2": "Master's in Business Studies from the University of Colombo",
       "hero.card.cred3": "Postgraduate Diploma in Business Management",
       "hero.card.cred4": "Technical Member of the IQSSL and a published researcher",
+      "hero.card.cred5": "Currently reading for a PhD",
 
       "trust.1a": "University Lecturer", "trust.1b": "Teaching at SLIIT for more than ten years",
       "trust.2a": "Postgraduate Qualified", "trust.2b": "Master's in Business Studies from the University of Colombo",
@@ -95,7 +96,7 @@
       "proof.cred.1": "<strong>University Lecturer</strong> at SLIIT with more than ten years of teaching experience",
       "proof.cred.2": "<strong>Master's in Business Studies</strong> from the University of Colombo",
       "proof.cred.3": "<strong>Postgraduate Diploma in Business Management</strong> from the University of Colombo",
-      "proof.cred.4": "<strong>Postgraduate researcher</strong> active in peer reviewed research and academic symposia",
+      "proof.cred.4": "<strong>Reading for a PhD</strong> and active in peer reviewed research and academic symposia",
       "proof.cred.5": "<strong>Senior industry experience</strong> across operations and cost and project management",
       "proof.cred.6": "<strong>Data driven practitioner</strong> who builds real analytics and automation for working businesses",
 
@@ -145,7 +146,7 @@
       "about.eyebrow": "About",
       "about.title": "Pramuditha Coomasaru",
       "about.p1": "I have taught at SLIIT as a university lecturer for more than ten years and I have held senior roles in industry across operations and cost and project management over the same career.",
-      "about.p2": "I also hold a Master's in Business Studies and a Postgraduate Diploma in Business Management from the University of Colombo and I have built real analytics and automation systems for working businesses.",
+      "about.p2": "I also hold a Master's in Business Studies and a Postgraduate Diploma in Business Management from the University of Colombo and I am now reading for a PhD and I have built real analytics and automation systems for working businesses.",
       "about.p3": "My way of working is simple because I understand the business deeply and I let the evidence lead and I hand you something practical that earns money or saves you time.",
       "about.cta": "Start a conversation",
 
@@ -204,6 +205,7 @@
       "hero.card.cred2": "කොළඹ විශ්වවිද්‍යාලයේ ව්‍යාපාර අධ්‍යයනපති උපාධිය",
       "hero.card.cred3": "ව්‍යාපාර කළමනාකරණ පශ්චාත් උපාධි ඩිප්ලෝමාව",
       "hero.card.cred4": "IQSSL තාක්ෂණික සාමාජික සහ පර්යේෂක",
+      "hero.card.cred5": "දැනට ආචාර්ය උපාධිය සඳහා පර්යේෂණ කරමින්",
 
       "trust.1a": "විශ්වවිද්‍යාල කථිකාචාර්ය", "trust.1b": "SLIIT ආයතනයේ වසර දහයකට වැඩි ඉගැන්වීම් පළපුරුද්ද",
       "trust.2a": "පශ්චාත් උපාධි සුදුසුකම්", "trust.2b": "කොළඹ විශ්වවිද්‍යාලයේ ව්‍යාපාර අධ්‍යයනපති උපාධිය",
@@ -269,7 +271,7 @@
       "proof.cred.1": "<strong>විශ්වවිද්‍යාල කථිකාචාර්ය</strong> SLIIT ආයතනයේ වසර දහයකට වැඩි ඉගැන්වීම් පළපුරුද්ද",
       "proof.cred.2": "<strong>ව්‍යාපාර අධ්‍යයනපති උපාධිය</strong> කොළඹ විශ්වවිද්‍යාලය",
       "proof.cred.3": "<strong>ව්‍යාපාර කළමනාකරණ පශ්චාත් උපාධි ඩිප්ලෝමාව</strong> කොළඹ විශ්වවිද්‍යාලය",
-      "proof.cred.4": "<strong>පශ්චාත් උපාධි පර්යේෂක</strong> ජාතික හා ජාත්‍යන්තර පර්යේෂණ ප්‍රකාශන රැසක දායකත්වය",
+      "proof.cred.4": "<strong>ආචාර්ය උපාධිය සඳහා පර්යේෂණ කරමින්</strong> ජාතික හා ජාත්‍යන්තර පර්යේෂණ ප්‍රකාශන රැසක දායකත්වය",
       "proof.cred.5": "<strong>ජ්‍යෙෂ්ඨ ක්ෂේත්‍ර පළපුරුද්ද</strong> මෙහෙයුම් හා පිරිවැය කළමනාකරණ අංශයන්හි අත්දැකීම්",
       "proof.cred.6": "<strong>දත්ත විශ්ලේෂණ වෘත්තිකයෙකු ලෙස</strong> ව්‍යාපාර සඳහා ප්‍රායෝගික පද්ධති නිර්මාණය",
 
@@ -307,7 +309,7 @@
       "about.eyebrow": "මා පිළිබඳව",
       "about.title": "ප්‍රමුදිත කූමසාරු",
       "about.p1": "වසර දහයකට වැඩි කාලයක් SLIIT ආයතනයේ විශ්වවිද්‍යාල කථිකාචාර්යවරයෙකු ලෙස කටයුතු කරන අතර මෙහෙයුම් හා පිරිවැය කළමනාකරණ ක්ෂේත්‍රයන්හි ජ්‍යෙෂ්ඨ තනතුරු හොබවා ඇත. එම ශාස්ත්‍රීය දැනුම සහ ප්‍රායෝගික ව්‍යාපාරික අත්දැකීම් එක් කරමින් ව්‍යාපාර උපදේශන කටයුතු සිදු කෙරේ.",
-      "about.p2": "කොළඹ විශ්වවිද්‍යාලයෙන් ලබාගත් ව්‍යාපාර අධ්‍යයනපති උපාධිය සහ ව්‍යාපාර කළමනාකරණ පශ්චාත් උපාධි ඩිප්ලෝමාවට අමතරව ව්‍යාපාර රැසක් සඳහා ප්‍රායෝගික දත්ත විශ්ලේෂණ සහ ස්වයංක්‍රීයකරණ පද්ධති නිර්මාණය කර ඇත.",
+      "about.p2": "කොළඹ විශ්වවිද්‍යාලයෙන් ලබාගත් ව්‍යාපාර අධ්‍යයනපති උපාධිය සහ ව්‍යාපාර කළමනාකරණ පශ්චාත් උපාධි ඩිප්ලෝමාවට අමතරව දැනට ආචාර්ය උපාධිය සඳහා පර්යේෂණ කරමින් සිටින අතර ව්‍යාපාර රැසක් සඳහා ප්‍රායෝගික දත්ත විශ්ලේෂණ සහ ස්වයංක්‍රීයකරණ පද්ධති නිර්මාණය කර ඇත.",
       "about.p3": "ව්‍යාපාරය හොඳින් අවබෝධ කර ගැනීමත් දත්ත මත පමණක් පදනම් වීමත් කාලය හා මුදල් ඉතිරි කරන ප්‍රායෝගික විසඳුමක් ලබා දීමත් මෙහි මූලික ප්‍රතිපත්තියයි.",
       "about.cta": "සම්බන්ධ කරගත හැකි තොරතුරු",
 
