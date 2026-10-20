@@ -32,9 +32,9 @@
       "hero.card.cred4": "Technical Member of the IQSSL and a published researcher",
       "hero.card.cred5": "Currently reading for a PhD",
 
-      "trust.1a": "University Lecturer", "trust.1b": "Teaching at SLIIT for more than ten years",
-      "trust.2a": "Postgraduate Qualified", "trust.2b": "Master's in Business Studies from the University of Colombo",
-      "trust.3a": "More Than Ten Years in Industry", "trust.3b": "Senior roles across engineering and business",
+      "trust.1a": "Strictly Confidential", "trust.1b": "Every detail you share stays private and is never passed on",
+      "trust.2a": "Free First Conversation", "trust.2b": "The first conversation carries no cost and no obligation",
+      "trust.3a": "English and Sinhala", "trust.3b": "Comfortable working in whichever language suits you best",
       "trust.4a": "Evidence Based", "trust.4b": "Every recommendation is backed by data",
 
       "problem.title": "Whatever you run some of this will sound familiar",
@@ -207,9 +207,9 @@
       "hero.card.cred4": "IQSSL තාක්ෂණික සාමාජික සහ පර්යේෂක",
       "hero.card.cred5": "ආචාර්ය උපාධි අපේක්ෂක",
 
-      "trust.1a": "විශ්වවිද්‍යාල කථිකාචාර්ය", "trust.1b": "SLIIT ආයතනයේ වසර දහයකට වැඩි ඉගැන්වීම් පළපුරුද්ද",
-      "trust.2a": "පශ්චාත් උපාධි සුදුසුකම්", "trust.2b": "කොළඹ විශ්වවිද්‍යාලයේ ව්‍යාපාර අධ්‍යයනපති උපාධිය",
-      "trust.3a": "වසර දහයකට වැඩි ක්ෂේත්‍ර පළපුරුද්ද", "trust.3b": "ඉංජිනේරු හා ව්‍යාපාර ක්ෂේත්‍රයන්හි ජ්‍යෙෂ්ඨ තනතුරු",
+      "trust.1a": "දැඩි රහස්‍යභාවය", "trust.1b": "ඔබ බෙදාගන්නා සෑම තොරතුරක්ම පෞද්ගලිකව සුරැකී කිසිවෙකුට ලබා නොදේ",
+      "trust.2a": "නොමිලේ පළමු සංවාදය", "trust.2b": "පළමු සංවාදය සඳහා කිසිදු ගාස්තුවක් හෝ බැඳීමක් නැත",
+      "trust.3a": "ඉංග්‍රීසි හා සිංහල", "trust.3b": "ඔබට පහසු භාෂාවෙන් කටයුතු කිරීමට හැකියාව ඇත",
       "trust.4a": "දත්ත මත පදනම් වූ", "trust.4b": "සෑම නිර්දේශයක්ම නිවැරදි දත්ත මගින් තහවුරු කෙරේ",
 
       "problem.title": "ව්‍යාපාරික කටයුතුවලදී බහුලව දැකිය හැකි අභියෝග කිහිපයක්",
