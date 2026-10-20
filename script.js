@@ -182,6 +182,7 @@
 
       "footer.role": "Business Analysis and Market Expansion Consultant in Sri Lanka",
       "footer.wa": "WhatsApp +94 77 772 8081",
+      "footer.insights": "Insights",
       "footer.copy": "© {year} Pramuditha Coomasaru. All rights reserved.",
 
       "_waDefault": "Hello Pramuditha I would like to talk about my business."
@@ -345,6 +346,7 @@
 
       "footer.role": "ශ්‍රී ලංකාවේ ව්‍යාපාර විශ්ලේෂණ සහ වෙළෙඳපොළ ව්‍යාප්ති උපදේශක",
       "footer.wa": "WhatsApp +94 77 772 8081",
+      "footer.insights": "තොරතුරු",
       "footer.copy": "© {year} Pramuditha Coomasaru. සියලුම හිමිකම් ඇවිරිණි.",
 
       "_waDefault": "ආයුබෝවන් ප්‍රමුදිත. ව්‍යාපාරික කටයුත්තක් සම්බන්ධයෙන් තොරතුරු දැනගැනීමට කැමැත්තෙමි."
