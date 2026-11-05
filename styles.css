@@ -126,6 +126,13 @@ img { max-width: 100%; }
 .main-nav { display: flex; align-items: center; gap: 26px; }
 .main-nav a { color: var(--ink); font-weight: 500; font-size: .98rem; }
 .main-nav a:hover { color: var(--gold-600); }
+.main-nav .nav-product {
+  color: #7b3fa1;
+  font-family: "Noto Sans Sinhala", var(--font);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.main-nav .nav-product::before { content: "✦"; margin-right: .35em; color: #ef8a35; }
 .main-nav .nav-cta { background: var(--navy); color: #fff; padding: .5em 1.1em; border-radius: 50px; }
 .main-nav .nav-cta:hover { background: var(--navy-700); color: #fff; }
 
