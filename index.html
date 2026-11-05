@@ -107,7 +107,7 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="site-header" id="top">
+  <header class="site-header">
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="Pramuditha Coomasaru home">
         <span class="brand-logo"><img src="logo-mark.png?v=2" alt="PC" width="63" height="26" /></span>
@@ -136,8 +136,33 @@
   </header>
 
   <main>
+    <section class="gateway" id="top" aria-labelledby="gateway-title">
+      <div class="container gateway-intro">
+        <p class="gateway-kicker" data-i18n="gateway.kicker">Research, analysis and education—applied to real needs.</p>
+        <h1 id="gateway-title" data-i18n="gateway.title">Welcome. What would you like to explore?</h1>
+        <p data-i18n="gateway.lead">My work brings evidence and practical thinking to two different needs: helping businesses make better decisions, and helping young children build strong foundations in mathematics.</p>
+      </div>
+      <div class="container gateway-paths">
+        <a class="gateway-card gateway-business" href="#consultancy">
+          <span class="gateway-icon" aria-hidden="true">↗</span>
+          <span class="gateway-label" data-i18n="gateway.business.label">For entrepreneurs and SME owners</span>
+          <strong data-i18n="gateway.business.title">Business Analysis &amp;<br />Market Expansion</strong>
+          <span class="gateway-copy" data-i18n="gateway.business.copy">Turn business data, processes and market opportunities into decisions you can act on.</span>
+          <span class="gateway-link" data-i18n="gateway.business.cta">Explore consultancy services <b aria-hidden="true">→</b></span>
+        </a>
+        <a class="gateway-card gateway-learning" href="/poddanta-ganan/" lang="si">
+          <span class="gateway-stars" aria-hidden="true">✦　·　★</span>
+          <span class="gateway-label" data-i18n="gateway.learning.label">වයස අවුරුදු 3–6 දරුවන් සහ දෙමාපියන් සඳහා</span>
+          <strong data-i18n="gateway.learning.title">පොඩ්ඩන්ට<br />ගණන්</strong>
+          <span class="gateway-copy" data-i18n="gateway.learning.copy">දෙමාපියන් සමඟ සෙල්ලම් කරමින් ගණිතයේ මූලික සංකල්ප හුරු කරවන සිංහල ක්‍රීඩා.</span>
+          <span class="gateway-link" data-i18n="gateway.learning.cta">ළමා ගණිත ක්‍රීඩා බලන්න <b aria-hidden="true">→</b></span>
+        </a>
+      </div>
+      <a class="gateway-scroll" href="#consultancy" data-i18n="gateway.scroll">More about the consultancy</a>
+    </section>
+
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" id="consultancy">
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="hero.eyebrow">For entrepreneurs and SME owners and growing businesses across Sri Lanka</p>
