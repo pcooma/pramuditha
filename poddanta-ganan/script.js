@@ -19,19 +19,19 @@ document.getElementById('year').textContent = String(new Date().getFullYear());
 
 const rounds = [
   {
-    title: 'මල් කීයක් තිබේද?',
+    title: 'මල් කීයක් තියෙනවාද?',
     objects: '🌼 🌼 🌼 🌼',
     answers: ['3', '4', '5'],
     correct: '4'
   },
   {
-    title: 'වැඩි කණ්ඩායම තෝරන්න',
+    title: 'වැඩිපුර අලි ඉන්න පැත්ත තෝරන්න',
     objects: '🐘🐘　හෝ　🐘🐘🐘',
     answers: ['වම', 'දකුණ'],
     correct: 'දකුණ'
   },
   {
-    title: 'ඊළඟට එන්නේ මොකක්ද?',
+    title: 'ඊළඟට එන පාට කුමක්ද?',
     objects: '🔴 🔵 🔴 🔵 ❓',
     answers: ['🔴', '🔵', '🟢'],
     correct: '🔴'
@@ -76,7 +76,7 @@ function checkAnswer(button, round) {
   if (button.dataset.answer !== round.correct) {
     button.classList.add('wrong');
     button.disabled = true;
-    demoFeedback.textContent = 'නැවත වරක් බලමු. ඔබට පුළුවන්!';
+    demoFeedback.textContent = 'නැවත උත්සාහ කර බලමු!';
     return;
   }
 
@@ -85,7 +85,7 @@ function checkAnswer(button, round) {
   button.classList.add('correct');
   demoCard.querySelectorAll('.demo-answer').forEach((answer) => { answer.disabled = true; });
   demoStars.textContent = `⭐ ${correctAnswers}`;
-  demoFeedback.textContent = 'නිවැරදියි! ඉතා හොඳ උත්සාහයක්.';
+  demoFeedback.textContent = 'ඉතා හොඳයි! පිළිතුර නිවැරදියි.';
 
   if (roundIndex === rounds.length - 1) {
     demoNext.hidden = true;
